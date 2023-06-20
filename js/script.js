@@ -1,3 +1,22 @@
+	// ! Preloader JS
+// 	setTimeout(function () {
+// 		$("#ctn-preloader").addClass("loaded");
+// 		// Once the preloader has finished, the scroll appears
+// 		$("body").removeClass("no-scroll-y");
+
+// 		if ($("#ctn-preloader").hasClass("loaded")) {
+// 			// It is so that once the preloader is gone the entire preloader section is removed
+// 			$("#preloader")
+// 				.delay(2000)
+// 				.queue(function () {
+// 					$(this).remove();
+// 				});
+// 		}
+// 	}, 3000);
+// });
+
+
+
 $(function () {
 	// ! Scroll to top
 	$(".click_to_top").click(function () {
@@ -67,22 +86,7 @@ $(function () {
 		time: 1000,
 	});
 
-	// ! Preloader JS
-	setTimeout(function () {
-		$("#ctn-preloader").addClass("loaded");
-		// Once the preloader has finished, the scroll appears
-		$("body").removeClass("no-scroll-y");
 
-		if ($("#ctn-preloader").hasClass("loaded")) {
-			// It is so that once the preloader is gone the entire preloader section is removed
-			$("#preloader")
-				.delay(2000)
-				.queue(function () {
-					$(this).remove();
-				});
-		}
-	}, 3000);
-});
 
 // !Code and docs for Typed.js: https://github.com/mattboldt/typed.js
 

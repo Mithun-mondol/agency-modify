@@ -1168,3 +1168,18 @@ a {
 		transform: translateY(2px);
 	}
 }
+
+
+
+/* ..................Preloader............... */
+
+.preloader_main {
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #fa7070;
+	z-index: 1000;
+}
+
